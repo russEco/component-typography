@@ -196,7 +196,7 @@ pre[class*&#x3D;&quot;language-&quot;] {
   <body>
         <h1 class="component-title">
       @economist/component-typography
-      <span>(v0.0.0-development)</span>
+      <span>(v3.1.5)</span>
     </h1>
     <div id="component-preview">
       <script>
@@ -240,7 +240,7 @@ pre[class*&#x3D;&quot;language-&quot;] {
       <h2 id="example" class="component-panel-heading"><a href="#example">Example</a></h2>
       <pre><code>    <span class="token keyword" >import</span> React <span class="token keyword" >from</span> <span class="token string" >'react'</span><span class="token punctuation" >;</span>
     <span class="token keyword" >import</span> SampleText <span class="token keyword" >from</span> <span class="token string" >'./sampletext'</span><span class="token punctuation" >;</span>
-    <span class="token keyword" >import</span> Tabs <span class="token keyword" >from</span> <span class="token string" >'react-simpletabs'</span><span class="token punctuation" >;</span>
+    <span class="token keyword" >import</span> TabPanel <span class="token keyword" >from</span> <span class="token string" >'react-tab-panel'</span><span class="token punctuation" >;</span>
     
     <span class="token keyword" >const</span> fonts <span class="token operator" >=</span> <span class="token punctuation" >[</span>
       <span class="token punctuation" >[</span> <span class="token string" >'sans'</span><span class="token punctuation" >,</span> <span class="token string" >'300'</span><span class="token punctuation" >,</span> <span class="token string" >''</span><span class="token punctuation" >,</span> <span class="token string" >'EconSans'</span> <span class="token punctuation" >]</span><span class="token punctuation" >,</span>
@@ -251,7 +251,7 @@ pre[class*&#x3D;&quot;language-&quot;] {
       <span class="token punctuation" >[</span> <span class="token string" >'serif'</span><span class="token punctuation" >,</span> <span class="token string" >'500'</span><span class="token punctuation" >,</span> <span class="token string" >''</span><span class="token punctuation" >,</span> <span class="token string" >'MiloSerifPro'</span> <span class="token punctuation" >]</span><span class="token punctuation" >,</span>
       <span class="token punctuation" >[</span> <span class="token string" >'serif'</span><span class="token punctuation" >,</span> <span class="token string" >''</span><span class="token punctuation" >,</span> <span class="token string" >'italic'</span><span class="token punctuation" >,</span> <span class="token string" >'MiloSerifPro'</span> <span class="token punctuation" >]</span><span class="token punctuation" >,</span>
     <span class="token punctuation" >]</span><span class="token punctuation" >;</span>
-    <span class="token keyword" >const</span> eachSample <span class="token operator" >=</span> fonts<span class="token punctuation" >.</span><span class="token function" >map</span><span class="token punctuation" >(</span><span class="token punctuation" >(</span>fontFamily<span class="token punctuation" >)</span> <span class="token operator" >=</span><span class="token operator" >></span> <span class="token punctuation" >{</span>
+    <span class="token keyword" >const</span> panels <span class="token operator" >=</span> fonts<span class="token punctuation" >.</span><span class="token function" >map</span><span class="token punctuation" >(</span><span class="token punctuation" >(</span>fontFamily<span class="token punctuation" >)</span> <span class="token operator" >=</span><span class="token operator" >></span> <span class="token punctuation" >{</span>
       <span class="token keyword" >const</span> <span class="token punctuation" >[</span> kind<span class="token punctuation" >,</span> modifier<span class="token punctuation" >,</span> fontStyle<span class="token punctuation" >,</span> family <span class="token punctuation" >]</span> <span class="token operator" >=</span> fontFamily<span class="token punctuation" >;</span>
       <span class="token keyword" >const</span> classes <span class="token operator" >=</span> <span class="token punctuation" >[</span>
         <span class="token template-string" ><span class="token string" >`example__</span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> kind <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" >-text`</span></span><span class="token punctuation" >,</span>
@@ -265,7 +265,10 @@ pre[class*&#x3D;&quot;language-&quot;] {
         style<span class="token punctuation" >.</span>fontStyle <span class="token operator" >=</span> fontStyle<span class="token punctuation" >;</span>
       <span class="token punctuation" >}</span>
       <span class="token keyword" >return</span> <span class="token punctuation" >(</span>
-        <span class="token operator" >&lt;</span>Tabs<span class="token punctuation" >.</span>Panel title<span class="token operator" >=</span><span class="token punctuation" >{</span><span class="token template-string" ><span class="token string" >`</span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> family <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" > </span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> modifier <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" > </span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> fontStyle <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" >`</span></span><span class="token punctuation" >}</span> key<span class="token operator" >=</span><span class="token punctuation" >{</span>`typography<span class="token operator" >-</span>$<span class="token punctuation" >{</span> fontFamily<span class="token punctuation" >.</span><span class="token function" >join</span><span class="token punctuation" >(</span><span class="token string" >'x'</span><span class="token punctuation" >)</span> <span class="token punctuation" >}</span>`<span class="token punctuation" >}</span><span class="token operator" >></span>
+        <span class="token operator" >&lt;</span>div
+          tabTitle<span class="token operator" >=</span><span class="token punctuation" >{</span><span class="token template-string" ><span class="token string" >`</span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> family <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" > </span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> modifier <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" > </span><span class="token interpolation" ><span class="token interpolation-punctuation punctuation" >${</span> fontStyle <span class="token interpolation-punctuation punctuation" >}</span></span><span class="token string" >`</span></span><span class="token punctuation" >}</span>
+          key<span class="token operator" >=</span><span class="token punctuation" >{</span>`panel<span class="token operator" >-</span>typography<span class="token operator" >-</span>$<span class="token punctuation" >{</span> fontFamily<span class="token punctuation" >.</span><span class="token function" >join</span><span class="token punctuation" >(</span><span class="token string" >'x'</span><span class="token punctuation" >)</span> <span class="token punctuation" >}</span>`<span class="token punctuation" >}</span>
+        <span class="token operator" >></span>
           <span class="token operator" >&lt;</span>h2<span class="token operator" >></span>Sample <span class="token keyword" >for</span> font<span class="token operator" >-</span>family<span class="token punctuation" >:</span> <span class="token punctuation" >{</span>fontFamily<span class="token punctuation" >.</span><span class="token function" >join</span><span class="token punctuation" >(</span><span class="token string" >' '</span><span class="token punctuation" >)</span><span class="token punctuation" >}</span><span class="token operator" >&lt;</span><span class="token operator" >/</span>h2<span class="token operator" >></span>
           <span class="token operator" >&lt;</span>div
             className<span class="token operator" >=</span><span class="token punctuation" >{</span>classes<span class="token punctuation" >}</span>
@@ -273,13 +276,13 @@ pre[class*&#x3D;&quot;language-&quot;] {
             data<span class="token operator" >-</span>font<span class="token operator" >=</span><span class="token punctuation" >{</span>family<span class="token punctuation" >.</span><span class="token function" >toLowerCase</span><span class="token punctuation" >(</span><span class="token punctuation" >)</span><span class="token punctuation" >.</span><span class="token function" >replace</span><span class="token punctuation" >(</span><span class="token regex" >/ /g</span><span class="token punctuation" >,</span> <span class="token string" >'-'</span><span class="token punctuation" >)</span><span class="token punctuation" >}</span>
           <span class="token operator" >></span><span class="token operator" >&lt;</span>SampleText <span class="token operator" >/</span><span class="token operator" >></span><span class="token operator" >&lt;</span><span class="token operator" >/</span>div<span class="token operator" >></span>
           <span class="token operator" >&lt;</span>hr <span class="token operator" >/</span><span class="token operator" >></span>
-        <span class="token operator" >&lt;</span><span class="token operator" >/</span>Tabs<span class="token punctuation" >.</span>Panel<span class="token operator" >></span>
+        <span class="token operator" >&lt;</span><span class="token operator" >/</span>div<span class="token operator" >></span>
       <span class="token punctuation" >)</span><span class="token punctuation" >;</span>
     <span class="token punctuation" >}</span><span class="token punctuation" >)</span><span class="token punctuation" >;</span>
     <span class="token keyword" >export</span> <span class="token keyword" >default</span> <span class="token punctuation" >(</span>
-      <span class="token operator" >&lt;</span>Tabs className<span class="token operator" >=</span><span class="token string" >"library--example-tabs"</span><span class="token operator" >></span>
-        <span class="token punctuation" >{</span>eachSample<span class="token punctuation" >}</span>
-      <span class="token operator" >&lt;</span><span class="token operator" >/</span>Tabs<span class="token operator" >></span>
+      <span class="token operator" >&lt;</span>TabPanel<span class="token operator" >></span>
+        <span class="token punctuation" >{</span>panels<span class="token punctuation" >}</span>
+      <span class="token operator" >&lt;</span><span class="token operator" >/</span>TabPanel<span class="token operator" >></span>
     <span class="token punctuation" >)</span><span class="token punctuation" >;</span>
     
     </pre></code>
