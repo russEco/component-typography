@@ -5,9 +5,7 @@
   font-family: EconSans;
   font-weight: 300;
   src:
-    /* Super Modern Browsers */
     url('/assets/ecosans-lig.woff2') format('woff2'),
-    /* Pretty Modern Browsers */
     url('/assets/ecosans-lig.woff') format('woff');
 }
 
@@ -65,6 +63,14 @@
   src:
     url('/assets/ecoserif-med.woff2') format('woff2'),
     url('/assets/ecoserif-med.woff') format('woff');
+}
+
+@font-face {
+  font-family: MiloSerifPro;
+  font-weight: 700;
+  src:
+    url('/assets/ecoserif-bol.woff2') format('woff2'),
+    url('/assets/ecoserif-bol.woff') format('woff');
 }
 
 @font-face {
