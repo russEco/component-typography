@@ -5,70 +5,70 @@
   font-family: EconSans;
   font-weight: 300;
   src:
-    url('/assets/ecosans-lig.woff2') format('woff2'),
-    url('/assets/ecosans-lig.woff') format('woff');
+    url('/assets/ecosans-li.woff2') format('woff2'),
+    url('/assets/ecosans-li.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-style: normal;
   src:
-    url('/assets/ecosans-reg.woff2') format('woff2'),
-    url('/assets/ecosans-reg.woff') format('woff');
+    url('/assets/ecosans-rg.woff2') format('woff2'),
+    url('/assets/ecosans-rg.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-weight: 500;
   src:
-    url('/assets/ecosans-med.woff2') format('woff2'),
-    url('/assets/ecosans-med.woff') format('woff');
+    url('/assets/ecosans-md.woff2') format('woff2'),
+    url('/assets/ecosans-md.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-weight: 700;
   src:
-    url('/assets/ecosans-bol.woff2') format('woff2'),
-    url('/assets/ecosans-bol.woff') format('woff');
+    url('/assets/ecosans-bd.woff2') format('woff2'),
+    url('/assets/ecosans-bd.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-style: italic;
   src:
-    url('/assets/ecosans-ita.woff2') format('woff2'),
-    url('/assets/ecosans-ita.woff') format('woff');
+    url('/assets/ecosans-it.woff2') format('woff2'),
+    url('/assets/ecosans-it.woff') format('woff');
 }
 
 @font-face {
   font-family: MiloSerifPro;
   font-style: normal;
   src:
-    url('/assets/ecoserif-reg.woff2') format('woff2'),
-    url('/assets/ecoserif-reg.woff') format('woff');
+    url('/assets/milo-rg.woff2') format('woff2'),
+    url('/assets/milo-rg.woff') format('woff');
 }
 
 @font-face {
   font-family: MiloSerifPro;
   font-style: italic;
   src:
-    url('/assets/ecoserif-ita.woff2') format('woff2'),
-    url('/assets/ecoserif-ita.woff') format('woff');
+    url('/assets/milo-it.woff2') format('woff2'),
+    url('/assets/milo-it.woff') format('woff');
 }
 
 @font-face {
   font-family: MiloSerifPro;
   font-weight: 500;
   src:
-    url('/assets/ecoserif-med.woff2') format('woff2'),
-    url('/assets/ecoserif-med.woff') format('woff');
+    url('/assets/milo-md.woff2') format('woff2'),
+    url('/assets/milo-md.woff') format('woff');
 }
 
 @font-face {
   font-family: MiloSerifPro;
   font-weight: 700;
   src:
-    url('/assets/ecoserif-bol.woff2') format('woff2'),
-    url('/assets/ecoserif-bol.woff') format('woff');
+    url('/assets/milo-bd.woff2') format('woff2'),
+    url('/assets/milo-bd.woff') format('woff');
 }
