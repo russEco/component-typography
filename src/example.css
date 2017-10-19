@@ -2,7 +2,7 @@
 /* step classes do not match the desired pattern! */
 
 @import 'index.css';
-@import 'react-tab-panel';
+@import 'react-tabs/style/react-tabs.css';
 
 .library--example-tabs {
   font-size: 20px;

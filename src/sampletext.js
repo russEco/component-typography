@@ -33,11 +33,12 @@ function stepFromClass(className) {
 function addModularScaleTitles(elm) {
   const scaleFactor = 20;
   return React.cloneElement(elm, {
-    children: elm.props.children.map((child) => {
+    children: elm.props.children.map((child, index) => {
       const step = stepFromClass(child.props.className || '') || 0;
       const emSize = modularScale(step);
       return React.cloneElement(child, {
         title: `${ roundThree(emSize) }em (${ roundOne(emSize * scaleFactor) }px)`,
+        key: index,
       });
     }),
   });
