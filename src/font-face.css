@@ -48,51 +48,6 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansSmallCaps;
-  font-weight: 300;
-  src:
-    url('/assets/econsans-sc-lt.woff2') format('woff2'),
-    url('/assets/econsans-sc-lt.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: EconSansSmallCaps;
-  font-style: normal;
-  src:
-    url('/assets/econsans-sc-rg.woff2') format('woff2'),
-    url('/assets/econsans-sc-rg.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: EconSansSmallCaps;
-  font-style: italic;
-  src:
-    url('/assets/econsans-sc-it.woff2') format('woff2'),
-    url('/assets/econsans-sc-it.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: EconSansSmallCaps;
-  font-weight: 500;
-  src:
-    url('/assets/econsans-sc-md.woff2') format('woff2'),
-    url('/assets/econsans-sc-md.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: EconSansSmallCaps;
-  font-weight: 700;
-  src:
-    url('/assets/econsans-sc-bd.woff2') format('woff2'),
-    url('/assets/econsans-sc-bd.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
   font-family: MiloSerifPro;
   font-style: normal;
   src:
