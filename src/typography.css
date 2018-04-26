@@ -24,10 +24,11 @@
   --text-size-step-6: calc(var(--text-size-step-5) * var(--scale-factor));
   --text-size-step-7: calc(var(--text-size-step-6) * var(--scale-factor));
 
-  --fontfamily-sans-default: 'EconSans', Tahoma, sans-serif;
+  --fontfamily-sans-default: 'EconSans-primary', 'EconSans-secondary', Tahoma, sans-serif;
   --fontfamily-sans: var(--fontfamily-sans-custom, var(--fontfamily-sans-default));
-  --fontfamily-serif-default: 'MiloSerifPro', Palatino, serif;
+  --fontfamily-serif-default: 'MiloSerifPro-primary', 'MiloSerifPro-secondary', Palatino, serif;
   --fontfamily-serif: var(--fontfamily-serif-custom, var(--fontfamily-serif-default));
+  --fontfamily-smallcaps-serif-default: 'MiloSerifProSmallCaps', Palatino, serif;
 
   --text-line-height-basic: 1.4;
 
