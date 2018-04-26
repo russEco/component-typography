@@ -1,7 +1,8 @@
 /* stylelint-disable value-keyword-case */
 /* too many components refer to EconSans */
 
-/* Primary subset fonts (aA-zZ 0-9 only). */
+/* Primary subset fonts (aA-zZ 0-9 etc). */
+
 @font-face {
   font-display: swap;
   font-family: EconSans-primary;
@@ -84,6 +85,7 @@
 }
 
 /* Condensed econsans used in charts and infographics. */
+
 @font-face {
   font-display: swap;
   font-family: EconSansCnd-primary;
@@ -131,6 +133,7 @@
 }
 
 /* Secondary subset fonts (all other characters) */
+
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
@@ -213,6 +216,7 @@
 }
 
 /* Condensed econsans used in charts and infographics. */
+
 @font-face {
   font-display: swap;
   font-family: EconSansCnd-secondary;
@@ -260,6 +264,7 @@
 }
 
 /* Smallcaps fonts. */
+
 @font-face {
   font-display: swap;
   font-family: MiloSerifProSmallCaps;
