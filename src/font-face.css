@@ -137,7 +137,7 @@
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
-  -secondaryfont-weight: 300;
+  font-weight: 300;
   src:
     url('/assets/econsans-primary-subset-li.woff2') format('woff2'),
     url('/assets/econsans-primary-subset-li.woff') format('woff');
@@ -146,7 +146,7 @@
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
-  -secondaryfont-style: normal;
+  font-style: normal;
   src:
     url('/assets/econsans-secondary-subset-rg.woff2') format('woff2'),
     url('/assets/econsans-secondary-subset-rg.woff') format('woff');
@@ -155,7 +155,7 @@
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
-  -secondaryfont-style: italic;
+  font-style: italic;
   src:
     url('/assets/econsans-secondary-subset-it.woff2') format('woff2'),
     url('/assets/econsans-secondary-subset-it.woff') format('woff');
@@ -164,7 +164,7 @@
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
-  -secondaryfont-weight: 500;
+  font-weight: 500;
   src:
     url('/assets/econsans-secondary-subset-md.woff2') format('woff2'),
     url('/assets/econsans-secondary-subset-md.woff') format('woff');
@@ -173,7 +173,7 @@
 @font-face {
   font-display: swap;
   font-family: EconSans-secondary;
-  -secondaryfont-weight: 700;
+  font-weight: 700;
   src:
     url('/assets/econsans-secondary-subset-bd.woff2') format('woff2'),
     url('/assets/econsans-secondary-subset-bd.woff') format('woff');
