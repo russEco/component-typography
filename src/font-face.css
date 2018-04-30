@@ -5,7 +5,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-primary;
+  font-family: EconSans;
   font-weight: 300;
   src:
     url('/assets/econsans-primary-subset-li.woff2') format('woff2'),
@@ -14,7 +14,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-primary;
+  font-family: EconSans;
   font-style: normal;
   src:
     url('/assets/econsans-primary-subset-rg.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-primary;
+  font-family: EconSans;
   font-style: italic;
   src:
     url('/assets/econsans-primary-subset-it.woff2') format('woff2'),
@@ -32,7 +32,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-primary;
+  font-family: EconSans;
   font-weight: 500;
   src:
     url('/assets/econsans-primary-subset-md.woff2') format('woff2'),
@@ -41,7 +41,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-primary;
+  font-family: EconSans;
   font-weight: 700;
   src:
     url('/assets/econsans-primary-subset-bd.woff2') format('woff2'),
@@ -50,7 +50,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-primary;
+  font-family: MiloSerifPro;
   font-style: normal;
   src:
     url('/assets/milo-primary-subset-rg.woff2') format('woff2'),
@@ -59,7 +59,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-primary;
+  font-family: MiloSerifPro;
   font-style: italic;
   src:
     url('/assets/milo-primary-subset-it.woff2') format('woff2'),
@@ -68,7 +68,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-primary;
+  font-family: MiloSerifPro;
   font-weight: 500;
   src:
     url('/assets/milo-primary-subset-md.woff2') format('woff2'),
@@ -77,7 +77,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-primary;
+  font-family: MiloSerifPro;
   font-weight: 700;
   src:
     url('/assets/milo-primary-subset-bd.woff2') format('woff2'),
@@ -88,7 +88,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansCnd-primary;
+  font-family: EconSansCnd;
   font-weight: 300;
   src:
     url('/assets/econsans-primary-subset-cd-li.woff2') format('woff2'),
@@ -97,7 +97,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansCnd-primary;
+  font-family: EconSansCnd;
   font-weight: normal;
   src:
     url('/assets/econsans-primary-subset-cd-rg.woff2') format('woff2'),
@@ -106,7 +106,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansCnd-primary;
+  font-family: EconSansCnd;
   font-style: italic;
   font-weight: normal;
   src:
@@ -116,7 +116,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansCnd-primary;
+  font-family: EconSansCnd;
   font-weight: 500;
   src:
     url('/assets/econsans-primary-subset-cd-md.woff2') format('woff2'),
@@ -125,7 +125,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSansCnd-primary;
+  font-family: EconSansCnd;
   font-weight: 700;
   src:
     url('/assets/econsans-primary-subset-cd-bd.woff2') format('woff2'),
@@ -136,7 +136,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-secondary;
+  font-family: EconSansSec;
   font-weight: 300;
   src:
     url('/assets/econsans-primary-subset-li.woff2') format('woff2'),
@@ -145,7 +145,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-secondary;
+  font-family: EconSansSec;
   font-style: normal;
   src:
     url('/assets/econsans-secondary-subset-rg.woff2') format('woff2'),
@@ -154,7 +154,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-secondary;
+  font-family: EconSansSec;
   font-style: italic;
   src:
     url('/assets/econsans-secondary-subset-it.woff2') format('woff2'),
@@ -163,7 +163,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-secondary;
+  font-family: EconSansSec;
   font-weight: 500;
   src:
     url('/assets/econsans-secondary-subset-md.woff2') format('woff2'),
@@ -172,7 +172,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: EconSans-secondary;
+  font-family: EconSansSec;
   font-weight: 700;
   src:
     url('/assets/econsans-secondary-subset-bd.woff2') format('woff2'),
@@ -181,7 +181,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-secondary;
+  font-family: MiloSerifProSec;
   font-style: normal;
   src:
     url('/assets/milo-secondary-subset-rg.woff2') format('woff2'),
@@ -190,7 +190,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-secondary;
+  font-family: MiloSerifProSec;
   font-style: italic;
   src:
     url('/assets/milo-secondary-subset-it.woff2') format('woff2'),
@@ -199,7 +199,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-secondary;
+  font-family: MiloSerifProSec;
   font-weight: 500;
   src:
     url('/assets/milo-secondary-subset-md.woff2') format('woff2'),
@@ -208,7 +208,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: MiloSerifPro-secondary;
+  font-family: MiloSerifProSec;
   font-weight: 700;
   src:
     url('/assets/milo-secondary-subset-bd.woff2') format('woff2'),
@@ -270,8 +270,8 @@
   font-family: MiloSerifProSmallCaps;
   font-style: normal;
   src:
-    url('/assets/milo-sc-rg.woff2') format('woff2'),
-    url('/assets/milo-sc-rg.woff') format('woff');
+    url('/assets/milo-smallcaps-rg.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-rg.woff') format('woff');
 }
 
 @font-face {
@@ -279,8 +279,8 @@
   font-family: MiloSerifProSmallCaps;
   font-style: italic;
   src:
-    url('/assets/milo-sc-it.woff2') format('woff2'),
-    url('/assets/milo-sc-it.woff') format('woff');
+    url('/assets/milo-smallcaps-it.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-it.woff') format('woff');
 }
 
 @font-face {
@@ -288,8 +288,8 @@
   font-family: MiloSerifProSmallCaps;
   font-weight: 300;
   src:
-    url('/assets/milo-sc-li.woff2') format('woff2'),
-    url('/assets/milo-sc-li.woff') format('woff');
+    url('/assets/milo-smallcaps-li.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-li.woff') format('woff');
 }
 
 @font-face {
@@ -297,8 +297,8 @@
   font-family: MiloSerifProSmallCaps;
   font-weight: 500;
   src:
-    url('/assets/milo-sc-md.woff2') format('woff2'),
-    url('/assets/milo-sc-md.woff') format('woff');
+    url('/assets/milo-smallcaps-md.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-md.woff') format('woff');
 }
 
 @font-face {
@@ -306,6 +306,6 @@
   font-family: MiloSerifProSmallCaps;
   font-weight: 700;
   src:
-    url('/assets/milo-sc-bd.woff2') format('woff2'),
-    url('/assets/milo-sc-bd.woff') format('woff');
+    url('/assets/milo-smallcaps-bd.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-bd.woff') format('woff');
 }
